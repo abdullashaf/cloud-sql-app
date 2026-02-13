@@ -4,7 +4,7 @@ import sqlite3
 app = Flask(__name__)
 
 def get_db_connection():
-    conn = sqlite3.connect('database.db')
+    conn = sqlite3.connect('/data/database.db')
     return conn
 
 @app.route('/')
