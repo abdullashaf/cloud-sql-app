@@ -4,14 +4,14 @@ A production-style Flask web application deployed on a Microsoft Azure Virtual M
 
 ---
 
-## 🚀 Architecture Overview
+##  Architecture Overview
 
 Client → Nginx (Reverse Proxy) → Dockerized Flask App  
 Monitoring Stack: Node Exporter → Prometheus → Grafana  
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - Python (Flask)
 - SQLite
@@ -27,7 +27,7 @@ Monitoring Stack: Node Exporter → Prometheus → Grafana
 
 ---
 
-## ⚙️ Key Implementations
+##  Key Implementations
 
 ### CI/CD Pipeline
 - Automated deployment using GitHub Actions
@@ -48,7 +48,7 @@ Monitoring Stack: Node Exporter → Prometheus → Grafana
 
 ---
 
-## 📊 Monitoring Example
+##  Monitoring Example
 
 Prometheus and Grafana used to monitor:
 
@@ -59,7 +59,7 @@ Prometheus and Grafana used to monitor:
 
 ---
 
-## ☁️ Cloud Deployment
+##  Cloud Deployment
 
 - Hosted on Microsoft Azure Linux VM
 - Configured NSG rules for ports 80, 3000, 9090
@@ -67,7 +67,7 @@ Prometheus and Grafana used to monitor:
 
 ---
 
-## 🧠 Skills Demonstrated
+##  Skills Demonstrated
 
 - DevOps Automation
 - Cloud Infrastructure Management
